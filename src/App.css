@@ -1,0 +1,98 @@
+html{
+  justify-content:center;
+  display:flex;
+}
+
+.container{
+  width: 100%;
+  background-color: black;
+
+}
+
+.App{
+  width:390px;
+  display:flex;
+  flex-direction: column;
+
+
+}
+
+ .buttons {
+  width: 25%;
+  margin: 0 auto;
+  justify-content: space-around;
+
+}
+ .numberButton {
+  background-color: #f98847;
+	border-radius: 8px;
+	border: 1px solid orange;
+	padding: 1rem 3rem;
+	line-height: 1.5;
+	color: white;
+	font-size: 1.6rem;
+	text-decoration: none;
+	font-weight: bold;
+  width:130px;
+ }
+
+ .specialButton {
+  background-color: #f98847;
+  filter:brightness(90%);
+	border-radius: 8px;
+	border: 1px solid orange;
+	padding: 1rem 3rem;
+	line-height: 1.5;
+	color: white;
+	font-size: 1.6rem;
+	text-decoration: none;
+	font-weight: bold;
+  width:130px;
+
+ }
+
+ .operatorCon {
+   display:flex;
+   flex-direction:column;
+   width: 130px;
+
+
+
+
+ }
+
+ .operatorButton {
+  background-color: teal;
+  filter:brightness(90%);
+	border-radius: 8px;
+	border: 1px solid blue;
+	padding: 1rem 3rem;
+	line-height: 1.5;
+	color: white;
+	font-size: 1.6rem;
+	text-decoration: none;
+	font-weight: bold;
+  width: 100%;
+ }
+
+.topCalCon{
+  display:flex;
+  flex-direction:column;
+
+
+
+
+}
+
+.bottomCon{
+  display:flex;
+}
+.displayBox{
+  width: 100%;
+  color: white;
+  font-size:1.5rem;
+  border:1px solid gray;
+  text-align:end;
+
+
+}
